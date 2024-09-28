@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+header img{
+    width: 13vw;
+    margin: 0em;
+    border-radius: 100%;
+    position: relative;
+    top:1vh;
+    }
+
+    h1{
+      text-align: center;
+      
+        }
+        
+        .baner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+        }
+
+        .baner img{
+            border-radius: 2vw;
+            width: 80%;
+            
+            }
+
+            h4{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0%;
+                }
+
+                ul li a{
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    justify-content: center;
+                    margin: 8px;
+                    list-style-type: none;
+                    text-decoration: none;
+                    color: black;
+                    }
+            .btn{
+                align-items: center;
+                display: flex;
+                justify-content: center;
+
+
+
+            }
+            .btn button{
+                width: 9vw;
+                height: 8vh;
+                border: none;
+              
+                background-color: rgb(104, 239, 113);
+                color: black;
+                border-radius: 1em;
+
+            }
+.btn button p{
+    text-decoration: none;
+}
